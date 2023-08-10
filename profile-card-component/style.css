@@ -19,6 +19,7 @@ body {
   font-family: "Kumbh Sans", sans-serif;
   font-size: 18px;
   background-color: #19a1ae;
+  overflow: hidden;
 }
 
 .container {
@@ -45,6 +46,7 @@ body {
   flex-shrink: 0;
   /* justify-self: flex-start; */
   background-color: #41cbd3;
+  background-image: url("./images/bg-pattern-card.svg");
   border-radius: 15px 15px 0px 0px;
 }
 
@@ -69,7 +71,8 @@ h1 {
 }
 
 .profile-info {
-  /* display: flex; */
+  text-align: center;
+  align-self: center;
 }
 
 .profile-stats {
@@ -93,4 +96,29 @@ h1 {
   font-weight: 400;
   line-height: normal;
   letter-spacing: 1.5px;
+}
+
+.bg-circle {
+  width: 978px;
+  height: 976px;
+
+  border-radius: 978px;
+  opacity: 0.5;
+  background: linear-gradient(180deg, rgba(9, 137, 180, 0) 0%, #53ffee 99.94%);
+  position: absolute;
+  z-index: -1;
+}
+
+.upper-circle {
+  top: -50%;
+  left: -33%;
+  transform: rotate(-135deg);
+}
+
+.lower-circle {
+  bottom: -60%;
+  right: -33%;
+  border-radius: 978px;
+  opacity: 0.25;
+  background: linear-gradient(180deg, rgba(9, 137, 180, 0) 0%, #53ffee 99.94%);
 }
