@@ -19,12 +19,12 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Screenshot
 
-![](images/screenshot.png)
+![QR Code Component Screenshot](images/screenshot.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/devjusty/frontend-mentor-challenges/tree/main/qr-code-component)
-- Live Site URL: [Add live site URL here](https://devjusty.github.io/frontend-mentor-challenges/qr-code-component/)
+- Solution URL: [https://github.com/devjusty/frontend-mentor-challenges/tree/main/qr-code-component](https://github.com/devjusty/frontend-mentor-challenges/tree/main/qr-code-component)
+- Live Site URL: [https://devjusty.github.io/frontend-mentor-challenges/qr-code-component/](https://devjusty.github.io/frontend-mentor-challenges/qr-code-component/)
 
 ## My process
 
@@ -33,7 +33,6 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
 - Mobile-first workflow
 
 ## Author
