@@ -140,3 +140,16 @@ body {
   top: 100%;
   left: 100%;
 }
+
+.attribution {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 4px;
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
