@@ -37,14 +37,12 @@ body {
   box-shadow: 0px 50px 100px -20px rgba(8, 70, 94, 0.58);
   display: flex;
   flex-direction: column;
-  align-items: space-between;
   justify-content: space-between;
 }
 
 .profile-header {
   height: 140px;
   flex-shrink: 0;
-  justify-self: flex-start;
   background-color: #41cbd3;
   background-image: url("./images/bg-pattern-card.svg");
   background-size: cover;
@@ -61,30 +59,20 @@ body {
   border: 5px solid #fff;
   width: 96px;
   height: 96px;
-  flex-shrink: 0;
-  align-self: center;
 }
 
 .profile-info {
   padding-top: 40px;
   text-align: center;
-  /* align-self: center; */
   line-height: 1.5em;
   color: #6b7082;
-  /* display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center; */
 }
 
 .profile-info h1 {
   font-size: 18px;
-  display: inline-block;
   color: #2e3349;
-  /* text-align: center; */
   font-style: normal;
   font-weight: 700;
-  /* line-height: normal; */
   display: inline-block;
 }
 
@@ -99,7 +87,6 @@ body {
 
 .profile-stats {
   border-top: 1px solid #ebe9ec;
-  display: inline-block;
   display: flex;
   height: 88px;
   justify-content: space-evenly;
@@ -130,17 +117,11 @@ body {
   align-items: center;
   width: 100vw;
   height: 100vh;
-  /* position: relative; */
   overflow: hidden;
 }
 
 .bg-circle {
   position: absolute;
-  /* width: 978px; */
-  /* height: 976px; */
-  /* background-size: auto; */
-  /* width: 50%; */
-  /* border-radius: 978px; */
   width: 100vw;
   height: 100vh;
   background-size: auto;
@@ -150,46 +131,12 @@ body {
 
 .upper-circle {
   background: url(./images/bg-pattern-top.svg) no-repeat bottom right;
-  /* background-size: auto; */
   top: 0;
   left: 0;
-  /* transform: translate(-50%, -50%); */
-  /* transform: translateY(-50%); */
-  /* transform: rotate(-135deg); */
 }
 
 .lower-circle {
   background: url(./images/bg-pattern-bottom.svg) no-repeat top left;
   top: 100%;
   left: 100%;
-  /* transform: translate(-50%, -50%); */
-  /* transform: rotate(45deg); */
 }
-
-/* .profile-card::before,
-.profile-card::after {
-  content: "";
-  width: 978px;
-  height: 976px;
-  border-radius: 978px;
-  opacity: 0.5;
-  background: linear-gradient(
-    180deg,
-    rgba(9, 137, 180, 0) 0.78%,
-    #53ffee 99.94%
-  );
-  position: absolute;
-  z-index: -1;
-}
-
-.profile-card::before {
-  top: -70%;
-  left: -20%;
-  transform: rotate(-135deg);
-}
-
-.profile-card::after {
-  top: 50%;
-  right: -15%;
-  transform: rotate(45deg);
-} */
