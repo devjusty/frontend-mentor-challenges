@@ -74,7 +74,7 @@ p {
 .ratings {
   display: flex;
   justify-content: space-between;
-  padding-top: ;
+  /* padding-top: ; */
 }
 
 .circle.rating {
@@ -112,6 +112,11 @@ p {
 .submit-btn:hover {
   background-color: var(--White);
   color: var(--Orange);
+}
+
+.end img {
+  max-width: 100%;
+  margin: 0 auto;
 }
 
 .attribution {
