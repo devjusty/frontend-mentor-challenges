@@ -1,0 +1,221 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&display=swap");
+
+/*
+  1. Use a more-intuitive box-sizing model.
+*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+/*
+  2. Remove default margin
+*/
+* {
+  margin: 0;
+}
+/*
+  Typographic tweaks!
+  3. Add accessible line-height
+  4. Improve text rendering
+*/
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+/*
+  5. Improve media defaults
+*/
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+/*
+  6. Remove built-in form typography styles
+*/
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+/*
+  7. Avoid text overflows
+*/
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+/*
+  8. Create a root stacking context
+*/
+#root,
+#__next {
+  isolation: isolate;
+}
+
+body {
+  font-family: "IBM Plex Sans", sans-serif;
+  /* background-image: url("assets/bg-main-desktop.png"); */
+  background-position: top right;
+  /* background-origin: */
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #191826;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+#bg-pattern-1 {
+  position: absolute;
+  top: -30px;
+  right: 0px;
+}
+
+.hero-text {
+  max-width: 850px;
+}
+
+main {
+  border-radius: 12px;
+  background: #191826;
+  background-image: url("assets/bg-pattern-2.svg");
+  background-repeat: no-repeat;
+  background-size: 80%;
+  background-position: top center;
+}
+
+.download-card {
+  border-radius: 12px;
+  background: #fa7453;
+  color: #fcfaf9;
+  padding: 48px 37px 48px 36px;
+}
+
+.download-link {
+  width: 296px;
+  height: 61px;
+  border-radius: 12px;
+  text-align: center;
+  margin-top: 16px;
+  font-size: 18px;
+  line-height: 32px;
+  letter-spacing: -0.18px;
+  font-weight: 700;
+  padding-top: 15px;
+  padding-bottom: 14px;
+}
+
+.download-link.ios {
+  background: #191826;
+}
+
+.download-link.android {
+  background: #fcfaf9;
+  color: #191826;
+}
+
+.download-link img {
+  height: 20px;
+  width: auto;
+  display: inline-block;
+}
+
+h1 {
+  font-size: 88px;
+  letter-spacing: -1px;
+  line-height: 1;
+}
+
+p {
+  font-size: 20px;
+  line-height: 34px;
+}
+
+.social-icons {
+  display: flex;
+  gap: 20px;
+}
+
+@media only screen and (max-width: 500px) {
+  body {
+    background-image: url("assets/bg-main-mobile.png");
+  }
+
+  .container {
+    margin: 40px 0 80px;
+  }
+
+  .hero-text {
+    margin: 24px;
+
+    padding-bottom: 166px;
+  }
+
+  main #app-preview {
+    position: relative;
+    top: -98px;
+    /* left: 80px; */
+    width: 208.972px;
+    margin: 0 auto;
+    /* padding-top: -98px; */
+  }
+
+  main p {
+    padding-bottom: 32px;
+  }
+
+  h1 {
+    padding-top: 64px;
+    padding-bottom: 20px;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: -0.455px;
+  }
+
+  h2 {
+    font-size: 32px;
+    line-height: 40px;
+    padding-bottom: 12px;
+  }
+
+  h3 {
+    font-size: 65px;
+    line-height: 52px;
+  }
+
+  h3 span {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: -0.2px;
+  }
+
+  p {
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  footer {
+    margin: 64px 12px;
+  }
+
+  footer .copyright {
+    font-size: 16px;
+    line-height: 26px;
+    padding-top: 32px;
+    padding-bottom: 64px;
+  }
+}
