@@ -160,9 +160,15 @@ p {
     font-size: 14px;
   }
 
+  .rating-component p {
+    line-height: 22px;
+  }
+
   .rating-component {
-    width: auto;
+    max-width: 327px;
+    height: 360px;
     margin: 0 24px;
+    padding: 32px 24px;
   }
 
   .circle {
