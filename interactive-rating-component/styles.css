@@ -76,6 +76,8 @@ p {
 .rating-option {
   font-size: 16px;
   line-height: 24px;
+  height: 51px;
+  width: 51px;
   color: var(--Medium-Grey);
   user-select: none;
   transition: all 0.2s ease-in;
@@ -145,4 +147,31 @@ p {
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+@media only screen and (max-width: 500px) {
+  h2 {
+    font-size: 24px;
+  }
+
+  .rating-component p,
+  .rating-component .rating-option,
+  .rating-component .submit-btn {
+    font-size: 14px;
+  }
+
+  .rating-component {
+    width: auto;
+    margin: 0 24px;
+  }
+
+  .circle {
+    width: 40px;
+    height: 40px;
+  }
+
+  .rating-option {
+    width: 42px;
+    height: 42px;
+  }
 }
